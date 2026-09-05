@@ -260,3 +260,35 @@ footer {
         right: 20px;
     }
 }
+
+/* Certificaciones */
+.cert-list {
+    list-style: none;
+    color: var(--text-secondary);
+}
+
+.cert-list li {
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cert-list li a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cert-list i {
+    color: var(--accent);
+    width: 20px;
+    text-align: center;
+}
+
+.cert-list .in-progress {
+    color: var(--text-secondary);
+    font-style: italic;
+    opacity: 0.8;
+}
